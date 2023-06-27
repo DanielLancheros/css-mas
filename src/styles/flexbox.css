@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: yellow;
+    justify-content: space-evenly;
+}
+
+.flex-container div {
+    width: 30%;
+    border: 2px solid black;
+    background-color: green;
+    flex-grow: 1;
+}
